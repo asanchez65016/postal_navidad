@@ -1,0 +1,216 @@
+body {
+	background-image: url("fondo.jpg");
+	background-repeat: no-repeat;
+	background-size: 1700px;
+	margin: 0;
+	background-color: black;
+}
+.texto{
+	position: relative;
+	font-family: "Candara", Times, serif;
+	color: white;
+	font-size: 150%;
+	left: 700px;
+	animation-name: texto;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+#reyesmagos{
+	width: 50px;
+	position: absolute;
+	top: 614px;
+	left: 70px;
+	transform: rotate(-15deg);
+	animation-name: reyesmagos;
+	animation-duration: 80s;
+	opacity: 0;
+	z-index: 3;
+}
+#portalbelen{  
+    width: 50px;
+	position: absolute;
+	top: 573px;
+	left: 1430px;
+	transform: rotate(3deg);
+	z-index: 1;
+
+}
+#papanoel{
+ 	width: 100px;
+ 	top: 190px;
+ 	left: 1500px;
+ 	position: relative;
+ 	animation-name: papanoel;
+ 	animation-duration: 3s;
+ 	opacity: 0;
+ 	animation-delay: 90s;
+}
+#angel{
+	width: 20px;
+	left:  1330px;
+	top: 450px;
+	position: relative;
+	z-index: 2;
+	animation-name: angel;
+ 	animation-duration: 4s;
+ 	animation-iteration-count: infinite;
+}
+#ef1 {
+	left: 500px;
+	top: 200px;
+	animation-name: ef1;
+	animation-duration: 2s;
+	transform: rotate(-15deg);
+	animation-delay: 5s;
+	
+}
+#ef2 {
+	left: 1200px;
+	top: 100px;
+	transform: rotate(-19deg);
+	animation-name: ef2;
+	animation-duration: 2s;
+	animation-delay: 10s;
+	animation-iteration-count:
+}
+#ef3{
+	top: 150px;
+	left: 150px;
+	transform: rotate(-35deg);
+	animation-name: ef3;
+	animation-duration: 2s;
+	animation-delay: 20s;	
+}
+#ef4{
+	top: 100px;
+	left: 1400px;
+	transform: rotate(-44deg);
+	animation-name: ef4;
+	animation-duration: 2s;
+	animation-delay: 35s;
+}
+#ef5{
+	top: 100px;
+	left: 400px;
+	transform: rotate(-44deg);
+	animation-name: ef5;
+	animation-duration: 2s;
+	animation-delay: 48s;
+
+}
+#ef6{
+	top: 200px;
+	left: 1480px;
+	transform: rotate(-44deg);
+	animation-name: ef6;
+	animation-duration: 3s;
+	animation-delay: 65s;
+
+}
+#ef7{
+	top: 5px;
+	left: 600px;
+	transform: rotate(-49deg);
+	animation-name: ef7;
+	animation-duration: 2s;
+	animation-delay: 40s;
+	
+
+}
+#ef8{
+	top: -2px;
+	left: 1080px;
+	transform: rotate(-36deg);
+	animation-name: ef8;
+	animation-duration: 2s;
+	animation-delay: 54s;
+
+
+}
+.estrellafugaz{
+	width: 100px;
+	position: absolute;
+	opacity: 0;
+
+}
+@keyframes texto{
+	0% {opacity: 0;}
+	50% {opacity: 1;}
+	100% {opacity: 0;}
+}
+@keyframes ef1{
+	0% {opacity: 0;}
+	25% {opacity: 1;}
+	50% {opacity: 0.25;}
+	75% {opacity: 0.05;}
+	100%{opacity: 0; left: 100px; top: 400px;}
+}
+@keyframes ef2{
+	0% {opacity: 0;}
+	25% {opacity: 1;}
+	50% {opacity: 0.5;}
+	75% {opacity: 0.05;}
+	100%{opacity: 0; left: 700px; top: 300px;}
+}
+@keyframes ef3{
+	0% {opacity: 0;}
+	25% {opacity: 1;}
+	50% {opacity: 0.5;}
+	75% {opacity: 0.15;}
+	100%{opacity: 0; left: -100px; top: 400px;}
+}
+@keyframes ef5{
+	0% {opacity: 0;}
+	25% {opacity: 1;}
+	50% {opacity: 0.25;}
+	75% {opacity: 0.05;}
+	100%{opacity: 0; left: 50px; top: 500px;}
+}
+@keyframes ef6{
+	0% {opacity: 0;}
+	25% {opacity: 1;}
+	50% {opacity: 0.25;}
+	75% {opacity: 0.05;}
+	100%{opacity: 0; left: 1280px; top: 500px;}
+}
+@keyframes ef7{
+	0% {opacity: 0;}
+	25% {opacity: 1;}
+	50% {opacity: 0.25;}
+	75% {opacity: 0.05;}
+	100%{opacity: 0; left: 400px; top: 400px;}
+}
+@keyframes ef8{
+	0% {opacity: 0;}
+	25% {opacity: 1;}
+	50% {opacity: 0.25;}
+	75% {opacity: 0.05;}
+	100%{opacity: 0; left: 800px; top: 400px;}
+}
+@keyframes reyesmagos{
+	0% {top: 614px; left: 70px; transform: rotate(-15deg); opacity: 1;}
+	10% {top: 590px; left: 150px; transform: rotate(-19deg);}
+	15% {top: 580px; left: 190px; transform: rotate(-23deg);}
+	20% {top: 540px; left: 280px; transform: rotate(-23deg);}
+	30% {top: 475px; left: 420px; transform: rotate(-25deg);}
+	45% {top: 445px; left: 470px; transform: rotate(-27deg);}
+	46% {transform: rotate(-5deg);}
+	50% {left: 600px;}
+	60% {left: 870px; top: 444px; }
+	75%{top: 490px; left: 1000px; transform: rotate(13deg);}
+	76%{transform: rotate(13deg);}
+	80%{top: 535px; left: 1100px; transform: rotate(8deg);}
+	95%{left: 1300px; opacity: 1; top: 590px; transform: rotate(0deg); opacity: 1;}
+	100%{left: 1425px; opacity: 1; top: 600px; opacity: 0;}
+}
+@keyframes papanoel{
+	0% {left: 1500px; opacity: 0,5px;}
+	30% {opacity: 1;}
+	80% {opacity: 1;}
+	100% {left: -100px; opacity: 0;}
+}
+@keyframes angel{
+	0%{top: 450px;}
+	50%{top: 490px;}
+	100%{top: 450px;}
+}
